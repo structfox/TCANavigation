@@ -1,1 +1,10 @@
+# mac specific files
 .DS_Store
+.package.resolved
+
+# project files
+*.xcodeproj
+*.xcworkspace
+
+# folders
+Derived/

@@ -1,0 +1,10 @@
+import SwiftUI
+import ComposableArchitecture
+
+struct {{ name }}View: View {
+	@State var store: StoreOf<{{ name }}Feature>
+	
+	var body: some View {
+		Text("{{ name }}View")
+	}
+}
